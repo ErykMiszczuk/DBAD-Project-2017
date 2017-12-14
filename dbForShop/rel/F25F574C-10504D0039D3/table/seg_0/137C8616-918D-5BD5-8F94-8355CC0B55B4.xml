@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="137C8616-918D-5BD5-8F94-8355CC0B55B4" name="Firmy">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:41:05 UTC</createdTime>
+<generatorID>53DCB925-D5DD-B7D6-7CA1-A2B695CA2F2A</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nazwa" id="4D9CD302-C0B5-977E-BA40-843C697F6F9F">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:41:05 UTC</createdTime>
+<generatorID>3D93C003-72BC-196B-5134-949DD2017E49</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nip" id="E63D76FD-BFE9-E47D-DA62-B80FABAED47D">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:41:05 UTC</createdTime>
+<generatorID>906CD242-73F1-F2BB-05C8-244EE97C6CB7</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="9B4070D8-DD23-E62D-9F28-76570C45AE74">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:41:05 UTC</createdTime>
+<generatorID>3ACE2AA8-1854-5CDA-EF3C-597BCE6506DC</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NrTelefonu" id="C76425D8-3746-AAB1-48C9-DA12D90C4866">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:41:05 UTC</createdTime>
+<generatorID>C9045936-5B11-2250-9281-86DA9DFAF4BF</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KodPocztowy" id="6EA4165B-73EC-D364-E9FA-99A8042BFB32">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:41:05 UTC</createdTime>
+<generatorID>C023B4CF-4DA4-F423-6B12-12A63FEBFA3E</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Miasto" id="BC1750DB-B12A-0FC9-C93D-CFA01210CAED">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:41:05 UTC</createdTime>
+<generatorID>FCC11964-AFCA-9264-492F-8BBD1368F95B</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ulica" id="E6569A30-432C-33A9-E869-3CDB9EC0BE22">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:41:05 UTC</createdTime>
+<generatorID>22C60A72-BBEE-129E-46B5-E8D473C9A6AE</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NrDomu" id="6F9D3810-E551-E00A-CFF8-098F0872517F">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:41:05 UTC</createdTime>
+<generatorID>24FB70C1-82B6-5C12-7D6C-79F425222C99</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NrMieszkania" id="5B952109-96E7-8B68-9796-846F151E2DDC">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:41:05 UTC</createdTime>
+<generatorID>BE550B28-0EA5-AA1E-8193-896F2A4E8731</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FE777F1B-9837-9AF1-3BB4-6974CBCE3100" name="Firmy_PK">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:54:25 UTC</createdTime>
+<ownerDesignName>dbForShop</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E63D76FD-BFE9-E47D-DA62-B80FABAED47D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

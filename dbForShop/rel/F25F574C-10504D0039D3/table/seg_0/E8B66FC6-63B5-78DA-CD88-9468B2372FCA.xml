@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E8B66FC6-63B5-78DA-CD88-9468B2372FCA" name="IloscTowarow">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:45:12 UTC</createdTime>
+<ownerDesignName>dbForShop</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NrSeryjny" id="00369697-F764-C83A-08E8-44B6C83A201F">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:48:09 UTC</createdTime>
+<ownerDesignName>dbForShop</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDTowaru" id="E946921B-EFC1-1B0B-F206-22DB8026BC86">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:48:53 UTC</createdTime>
+<ownerDesignName>dbForShop</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Towary_Nazwa" id="22DA7962-8727-69E1-9E6F-BEA06CE82186">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 17:00:38 UTC</createdTime>
+<ownerDesignName>dbForShop</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="835CBA01-ABB0-36E4-4D2E-ED0598F191F9" referredColumn="4C7BF709-078F-B534-B2F8-1410EA6032CA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="379314F6-FECA-DB35-926A-AB5D37AC7C12" name="IloscTowarow_PK">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:48:09 UTC</createdTime>
+<ownerDesignName>dbForShop</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00369697-F764-C83A-08E8-44B6C83A201F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FC333811-6F1E-4E98-E634-E78510FE1423" name="IloscTowarow_Towary_FK">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 17:00:38 UTC</createdTime>
+<ownerDesignName>dbForShop</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22DA7962-8727-69E1-9E6F-BEA06CE82186"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

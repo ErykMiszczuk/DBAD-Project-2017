@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AEB20B1A-0066-2C40-7622-E78B22206B26" name="Transakcje">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:41:05 UTC</createdTime>
+<generatorID>FF34B05D-0EBF-A935-662A-9C77FBCF3B5B</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<ordsAlias>tranzakcje</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDTransakcji" id="1EA28150-BF1A-43A5-FEFB-C411616B870A">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:41:05 UTC</createdTime>
+<generatorID>3DAD3C2F-94C1-3484-CD14-771F011FE3D6</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDKlienta" id="8F717680-2858-6DBA-46F2-609D5B754DB4">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:41:05 UTC</createdTime>
+<generatorID>7B851FFC-402B-DC49-136B-2C40C7C73214</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0500A449-2167-B6E0-AD78-EE4F24801FFC" referredColumn="D8FBCEFB-2F49-18D3-E05A-F9F6055E919A"/>
+</associations>
+</Column>
+<Column name="IDTowaru" id="C354BD7D-198C-FE2B-FA0F-D0F3F5954A92">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:41:05 UTC</createdTime>
+<generatorID>AAA7D618-D118-77F7-B0D5-336D0CF04B69</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+<associations>
+<colAssociation fkAssociation="75A5F9A4-EB7D-E543-1FA4-40E0FA9ACCE0" referredColumn="00369697-F764-C83A-08E8-44B6C83A201F"/>
+</associations>
+</Column>
+<Column name="DataSprzedarzy" id="462A7E66-E0A4-C0C0-300A-A888652DA499">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:41:05 UTC</createdTime>
+<generatorID>E4844D64-1554-6E1E-A639-5B4D7E83EC82</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rabat" id="0525A127-2F42-82DD-52D7-7FDB90A20918">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:41:05 UTC</createdTime>
+<generatorID>B549DBE3-6F49-B57E-3160-F751A18A4ED6</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B15CD626-8A5A-7027-4E3D-181811B5F948" referredColumn="B24C6346-3A83-9E7F-3329-C905E3A250D5"/>
+</associations>
+</Column>
+<Column name="WartoscZakupu" id="95DEAE07-C883-CF00-DD95-36920640F94C">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:41:05 UTC</createdTime>
+<generatorID>A0870E84-2C9F-68A4-AA2B-7BD41F047C8D</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Klienci_indywidualni_ID" id="06544CF4-4DE3-4782-2E1E-E08339C099A6">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:51:05 UTC</createdTime>
+<ownerDesignName>dbForShop</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5BD8864B-7F63-182C-AC95-33488C5390F5" name="Tranzakcje_PK">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:43:40 UTC</createdTime>
+<ownerDesignName>dbForShop</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1EA28150-BF1A-43A5-FEFB-C411616B870A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A57DFE71-A651-54E6-45AE-DB6F7A7FFBF6" name="Tranzakcje_Klienci_indywidualni_FK">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:51:05 UTC</createdTime>
+<ownerDesignName>dbForShop</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F717680-2858-6DBA-46F2-609D5B754DB4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3AAEB8A7-43BF-791C-B87A-616EF01EDBAE" name="Tranzakcje_Rabaty_FK">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 17:16:46 UTC</createdTime>
+<ownerDesignName>dbForShop</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0525A127-2F42-82DD-52D7-7FDB90A20918"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4568000C-4566-D852-EF33-1927C602957B" name="Tranzakcje_IloscTowarow_FK">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 17:17:37 UTC</createdTime>
+<ownerDesignName>dbForShop</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C354BD7D-198C-FE2B-FA0F-D0F3F5954A92"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

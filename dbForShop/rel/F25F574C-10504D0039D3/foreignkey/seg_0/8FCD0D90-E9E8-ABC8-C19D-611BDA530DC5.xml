@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8FCD0D90-E9E8-ABC8-C19D-611BDA530DC5" containerWithKeyObject="DD6E86D1-74AC-284E-430C-7EA7C7D3BFC3" localFKIndex="0CB3ABD6-EF7E-2E49-5D9F-B388E9F96C5E" name="Reklamacje_Tranzakcje_FK">
+<createdBy>s426197</createdBy>
+<createdTime>2017-12-14 14:33:24 UTC</createdTime>
+<ownerDesignName>dbForShop</ownerDesignName>
+<referredTableLongName>Transakcje</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AEB20B1A-0066-2C40-7622-E78B22206B26</referredTableID>
+<keyObject>5BD8864B-7F63-182C-AC95-33488C5390F5</keyObject>
+<referredKeyID>5BD8864B-7F63-182C-AC95-33488C5390F5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IDTransakcji</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

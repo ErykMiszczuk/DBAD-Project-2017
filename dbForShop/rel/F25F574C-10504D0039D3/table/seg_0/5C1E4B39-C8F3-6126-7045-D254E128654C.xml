@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5C1E4B39-C8F3-6126-7045-D254E128654C" name="Towary">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:41:05 UTC</createdTime>
+<generatorID>A26867E3-B837-1E1E-61CF-C55FCE01427F</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nazwa" id="4C7BF709-078F-B534-B2F8-1410EA6032CA">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:41:05 UTC</createdTime>
+<generatorID>DEE032EB-26AB-8BAE-085E-571BE4D4EB75</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Typ" id="9B2822DC-95F3-4788-1CA0-A97F97AE18F0">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:41:05 UTC</createdTime>
+<generatorID>ECF414E6-3B49-4410-75E4-7B82EDE131C3</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Specyfikacja" id="8A936F85-E675-1074-E7ED-5759B7B6D337">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:41:05 UTC</createdTime>
+<generatorID>0216A673-5BC6-0752-CDA5-9C3B703F7588</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cena" id="358AEA4B-B0AC-7E1A-FFA0-3D825513992E">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:41:05 UTC</createdTime>
+<generatorID>89B4FD7A-289A-CD57-9FD2-80D58E4595E2</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DataWprowadzenia" id="E346052A-7CC9-AAD3-031F-C6FB5D38800C">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:41:05 UTC</createdTime>
+<generatorID>20A3BAD4-D9AF-1AFB-762F-2C88E8082437</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Producent" id="43BFB775-39AB-8D1D-4127-995AC891E46E">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:41:05 UTC</createdTime>
+<generatorID>AE1E612C-6BCC-5468-62CA-685C20C73BB4</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OkresGwarancji" id="86050775-9C91-BD69-10F3-C26305002534">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:41:05 UTC</createdTime>
+<generatorID>4A1CDDF0-F6A1-8ABC-DFBB-9BED7BC043B3</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OkresReklamacji" id="1ED73914-77A2-21A6-B17D-E0D56B00AF42">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:41:05 UTC</createdTime>
+<generatorID>C51D3269-F52C-17A3-896C-F0E9A6715A10</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DB7F1E52-A6B4-E615-BCE7-6290B79E1E65" name="Towary_PK">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:44:51 UTC</createdTime>
+<ownerDesignName>dbForShop</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C7BF709-078F-B534-B2F8-1410EA6032CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

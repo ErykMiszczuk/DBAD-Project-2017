@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="dbForShop" id="0AAF914A-1EDD-BC55-70DE-48AC51F56B0D" version="3.5">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 15:03:07 UTC</createdTime>
+<ownerDesignName>projekt-bazy-18-19</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>0AAF914A-1EDD-BC55-70DE-48AC51F56B0D</designId>
+</OSDM_Design>

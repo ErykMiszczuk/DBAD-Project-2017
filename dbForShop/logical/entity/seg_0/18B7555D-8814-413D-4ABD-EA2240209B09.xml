@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="18B7555D-8814-413D-4ABD-EA2240209B09" name="IloscTowarow">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 17:10:17 UTC</createdTime>
+<generatorID>E8B66FC6-63B5-78DA-CD88-9468B2372FCA</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<engineerTo>
+<item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
+<item key="8F00BC8B-45A7-3EE3-19B2-788664E008C5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NrSeryjny" id="645E5FD3-4EC1-5CF9-D5AD-98FD069545B8">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 17:10:17 UTC</createdTime>
+<generatorID>00369697-F764-C83A-08E8-44B6C83A201F</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<engineerTo>
+<item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
+<item key="8F00BC8B-45A7-3EE3-19B2-788664E008C5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDTowaru" id="1C99FEA4-86C2-575D-974F-E3B7F6138657">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 17:10:17 UTC</createdTime>
+<generatorID>E946921B-EFC1-1B0B-F206-22DB8026BC86</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<engineerTo>
+<item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
+<item key="8F00BC8B-45A7-3EE3-19B2-788664E008C5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Towary Nazwa" id="EEB2EA65-FCF6-BF0A-B6AE-F069C12009D9">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 17:10:17 UTC</createdTime>
+<generatorID>1BBE77E8-21CF-8D25-E780-E763D026C396</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<engineerTo>
+<item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
+<item key="8F00BC8B-45A7-3EE3-19B2-788664E008C5" value="true"/>
+</engineerTo>
+<referedAttribute>DEE032EB-26AB-8BAE-085E-571BE4D4EB75</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D64EBA75-47F5-E222-4A04-82CDB3050D6F" name="IloscTowarow PK">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 17:10:17 UTC</createdTime>
+<generatorID>379314F6-FECA-DB35-926A-AB5D37AC7C12</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<engineerTo>
+<item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
+<item key="8F00BC8B-45A7-3EE3-19B2-788664E008C5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>645E5FD3-4EC1-5CF9-D5AD-98FD069545B8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

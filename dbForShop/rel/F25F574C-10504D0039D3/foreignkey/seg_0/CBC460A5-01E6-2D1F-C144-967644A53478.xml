@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CBC460A5-01E6-2D1F-C144-967644A53478" containerWithKeyObject="DD6E86D1-74AC-284E-430C-7EA7C7D3BFC3" localFKIndex="7A66C5C1-ACF2-7CF0-F078-283CA239FD60" name="Reklamacje_Faktury_FK">
+<createdBy>s426197</createdBy>
+<createdTime>2017-12-14 14:41:25 UTC</createdTime>
+<ownerDesignName>dbForShop</ownerDesignName>
+<referredTableLongName>Faktury</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>53B13AC9-A2A4-23AD-FB8B-17654CDB89AE</referredTableID>
+<keyObject>189C3FAA-0177-72AA-EBA5-512749B3BC62</keyObject>
+<referredKeyID>189C3FAA-0177-72AA-EBA5-512749B3BC62</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NrFaktury</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

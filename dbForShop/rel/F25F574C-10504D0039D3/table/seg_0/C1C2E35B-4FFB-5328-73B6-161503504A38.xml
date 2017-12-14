@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C1C2E35B-4FFB-5328-73B6-161503504A38" name="Klienci_indywidualni">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:41:05 UTC</createdTime>
+<generatorID>FACF09E7-F895-01D6-EECB-6A5816C627A8</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="D8FBCEFB-2F49-18D3-E05A-F9F6055E919A">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:42:56 UTC</createdTime>
+<ownerDesignName>dbForShop</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Imie" id="B1B2CDC7-9779-09F0-76B4-43C148BD0257">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:41:05 UTC</createdTime>
+<generatorID>972212B3-CEE9-3DC5-AB34-3AB61666D2AA</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwisko" id="AF27CE40-8E49-6971-A9E5-275130F3F2F9">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:41:05 UTC</createdTime>
+<generatorID>22E40493-7C5E-7D16-0B1A-ED16C4C99BB7</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="C62D241B-A4F4-AD12-55F6-32660CA81282">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:41:05 UTC</createdTime>
+<generatorID>614FF44B-DA29-FE93-5474-266CB373718B</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NrTelefonu" id="9F753CCC-16DF-E7D1-CB86-3ED171BF726B">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:41:05 UTC</createdTime>
+<generatorID>8D40971C-63A0-0340-C285-7CDC6E5C0A8A</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KodPocztowy" id="15AF00BE-639C-0E15-74FA-ABE604115BEB">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:41:05 UTC</createdTime>
+<generatorID>AC676E88-CC47-3EA3-73FC-5EBDB68A2003</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Miasto" id="65D78745-A144-5A57-48B0-50F02EC45ACA">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:41:05 UTC</createdTime>
+<generatorID>41330BE2-F4FA-ED61-F916-54E0C12F2980</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ulica" id="2F23A0CA-DF7A-755F-31BA-F149CF1E4ACC">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:41:05 UTC</createdTime>
+<generatorID>FDA7F491-03CC-9921-EFF6-108172A22E72</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NrDomu" id="45810031-4B38-0F72-AF94-EDEF620C4726">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:41:05 UTC</createdTime>
+<generatorID>05C22B0E-D5BC-D698-1E80-5F07E1330D34</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NrMieszkania" id="F544969A-47D6-AE51-DB57-4CE3BE161B68">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:41:05 UTC</createdTime>
+<generatorID>2B49E0EC-9AEC-1938-C091-CEDFDBF622C7</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="73A5988E-FBC4-255D-37F7-7DAEFD0E2554" name="Klienci_indywidualni_PK">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:43:23 UTC</createdTime>
+<ownerDesignName>dbForShop</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8FBCEFB-2F49-18D3-E05A-F9F6055E919A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

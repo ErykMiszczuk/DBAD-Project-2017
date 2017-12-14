@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B15CD626-8A5A-7027-4E3D-181811B5F948" containerWithKeyObject="AEB20B1A-0066-2C40-7622-E78B22206B26" localFKIndex="3AAEB8A7-43BF-791C-B87A-616EF01EDBAE" name="Tranzakcje_Rabaty_FK">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 17:16:46 UTC</createdTime>
+<ownerDesignName>dbForShop</ownerDesignName>
+<referredTableLongName>Rabaty</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>33A2730C-7DA9-AAA2-F38A-A1FACC277CAD</referredTableID>
+<keyObject>B14681FA-1687-C065-6BAC-4E44B91BBECA</keyObject>
+<referredKeyID>B14681FA-1687-C065-6BAC-4E44B91BBECA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NazwaRabatu</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

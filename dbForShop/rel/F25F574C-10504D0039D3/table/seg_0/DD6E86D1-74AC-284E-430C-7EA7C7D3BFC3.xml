@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DD6E86D1-74AC-284E-430C-7EA7C7D3BFC3" name="Reklamacje">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:41:05 UTC</createdTime>
+<generatorID>B1F2A65B-9126-6FB4-FD71-179D7F073550</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDReklamacji" id="A9E5D094-9823-D543-407A-29601325C1B4">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 17:16:00 UTC</createdTime>
+<ownerDesignName>dbForShop</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDTranzakcji" id="AAFBA797-6331-FD6B-411E-CFF9CDC805EE">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:41:05 UTC</createdTime>
+<generatorID>32290BCA-2AF6-BD98-EE1D-38E4D4027C62</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8FCD0D90-E9E8-ABC8-C19D-611BDA530DC5" referredColumn="1EA28150-BF1A-43A5-FEFB-C411616B870A"/>
+<colAssociation fkAssociation="CBC460A5-01E6-2D1F-C144-967644A53478" referredColumn="82E45768-AC68-4109-FD14-8827095EDF6A"/>
+</associations>
+</Column>
+<Column name="Status" id="6D4029AA-B673-19C6-6255-E5A4AE233B3F">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:41:05 UTC</createdTime>
+<generatorID>CF92589B-F8B0-AE30-C286-5640297C47C1</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Uwagi" id="D199DC37-33F1-06C3-D9A8-75E49312D26D">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:41:05 UTC</createdTime>
+<generatorID>05EEC0DE-78DF-8775-AD7C-C1C000594C80</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DataZlozenia" id="056BED42-8833-55E3-EE5C-6923A157FA36">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:41:05 UTC</createdTime>
+<generatorID>9EA2C509-36FE-AB68-2DB8-2BA98FE56699</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C9CC6CA4-103B-EFD8-CF97-0624BEC5573F" name="Reklamacje_PK">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 17:16:00 UTC</createdTime>
+<ownerDesignName>dbForShop</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9E5D094-9823-D543-407A-29601325C1B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0CB3ABD6-EF7E-2E49-5D9F-B388E9F96C5E" name="Reklamacje_Tranzakcje_FK">
+<createdBy>s426197</createdBy>
+<createdTime>2017-12-14 14:33:24 UTC</createdTime>
+<ownerDesignName>dbForShop</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AAFBA797-6331-FD6B-411E-CFF9CDC805EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A66C5C1-ACF2-7CF0-F078-283CA239FD60" name="Reklamacje_Faktury_FK">
+<createdBy>s426197</createdBy>
+<createdTime>2017-12-14 14:41:25 UTC</createdTime>
+<ownerDesignName>dbForShop</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AAFBA797-6331-FD6B-411E-CFF9CDC805EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

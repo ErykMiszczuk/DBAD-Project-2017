@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F55C479E-F957-2253-20E9-76B2DD61A704" containerWithKeyObject="53B13AC9-A2A4-23AD-FB8B-17654CDB89AE" localFKIndex="44C7C624-1442-3B2C-4074-B5015771791F" name="Faktury_IloscTowarow_FK">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 17:18:14 UTC</createdTime>
+<ownerDesignName>dbForShop</ownerDesignName>
+<referredTableLongName>IloscTowarow</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E8B66FC6-63B5-78DA-CD88-9468B2372FCA</referredTableID>
+<keyObject>379314F6-FECA-DB35-926A-AB5D37AC7C12</keyObject>
+<referredKeyID>379314F6-FECA-DB35-926A-AB5D37AC7C12</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NrSeryjny</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="53B13AC9-A2A4-23AD-FB8B-17654CDB89AE" name="Faktury">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:41:05 UTC</createdTime>
+<generatorID>0277C3F8-15B7-F018-5348-0DFCF971D93A</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NrFaktury" id="82E45768-AC68-4109-FD14-8827095EDF6A">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:41:05 UTC</createdTime>
+<generatorID>AB0740F1-2CE7-AC9D-0A68-9EF0245BE0D8</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDKlienta" id="C0555455-D5F1-9316-1119-3E86EE651CEB">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:41:05 UTC</createdTime>
+<generatorID>DF62F702-995A-8824-6C45-A315C7B5B5B0</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="76263982-9D2B-3A69-F978-783795CEDF1C" referredColumn="E63D76FD-BFE9-E47D-DA62-B80FABAED47D"/>
+</associations>
+</Column>
+<Column name="IDTowaru" id="E9951C72-F347-4611-7BDE-AC757303C2D3">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:41:05 UTC</createdTime>
+<generatorID>551E4532-C6CC-A6D8-C0BC-A05D142FAFB6</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F55C479E-F957-2253-20E9-76B2DD61A704" referredColumn="00369697-F764-C83A-08E8-44B6C83A201F"/>
+</associations>
+</Column>
+<Column name="DataSprzedarzy" id="7C6E3307-5FA2-F031-D8D6-A99925F42281">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:41:05 UTC</createdTime>
+<generatorID>8ADD287B-C9DE-36B7-B928-786D44FB154A</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rabat" id="932ADE26-2615-31D3-3037-F60959C6FAF5">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:41:05 UTC</createdTime>
+<generatorID>B4FBBCE1-5495-2E46-0659-4A94B828BABC</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="45C98E0E-5425-1752-88CD-87C7D356D68A" referredColumn="B24C6346-3A83-9E7F-3329-C905E3A250D5"/>
+</associations>
+</Column>
+<Column name="WartoscZakupu" id="B7B39E88-8B45-2CF9-9972-B0292BEFA460">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:41:05 UTC</createdTime>
+<generatorID>EC893DA6-9E13-3FD1-7C10-A50656EDD5EA</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="189C3FAA-0177-72AA-EBA5-512749B3BC62" name="Faktury_PK">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 16:54:43 UTC</createdTime>
+<ownerDesignName>dbForShop</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82E45768-AC68-4109-FD14-8827095EDF6A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C2B00DBB-DEA8-07C3-2961-7FAFE7AA39E7" name="Faktury_Firmy_FK">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 17:11:56 UTC</createdTime>
+<ownerDesignName>dbForShop</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0555455-D5F1-9316-1119-3E86EE651CEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="44940441-9228-0973-5300-6F9A09AF4F35" name="Faktury_Rabaty_FK">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 17:14:19 UTC</createdTime>
+<ownerDesignName>dbForShop</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="932ADE26-2615-31D3-3037-F60959C6FAF5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="44C7C624-1442-3B2C-4074-B5015771791F" name="Faktury_IloscTowarow_FK">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-11 17:18:14 UTC</createdTime>
+<ownerDesignName>dbForShop</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9951C72-F347-4611-7BDE-AC757303C2D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
