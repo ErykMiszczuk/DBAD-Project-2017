@@ -19,16 +19,17 @@
 <Attribute name="IDTranzakcji" id="32290BCA-2AF6-BD98-EE1D-38E4D4027C62">
 <createdBy>s426287</createdBy>
 <createdTime>2017-12-11 16:26:14 UTC</createdTime>
+<generatorID>AFABE120-76D1-0E5D-FACE-221EC7189BD6</generatorID>
 <ownerDesignName>dbForShop</ownerDesignName>
 <engineerTo>
 <item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
 <item key="8F00BC8B-45A7-3EE3-19B2-788664E008C5" value="true"/>
 </engineerTo>
+<referedAttribute>AB0740F1-2CE7-AC9D-0A68-9EF0245BE0D8</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>32</dataTypeSize>
-<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Status" id="CF92589B-F8B0-AE30-C286-5640297C47C1">
 <createdBy>s426287</createdBy>
@@ -71,5 +72,50 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="IDReklamacji" id="653F5544-2BD2-9DEF-32BB-C1814D28C744">
+<createdBy>s426197</createdBy>
+<createdTime>2017-12-14 15:09:10 UTC</createdTime>
+<generatorID>A9E5D094-9823-D543-407A-29601325C1B4</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<engineerTo>
+<item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
+<item key="8F00BC8B-45A7-3EE3-19B2-788664E008C5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Transakcje.IDTransakcji" id="010E7F46-0880-75B8-C339-31889819F4E1">
+<createdBy>s426197</createdBy>
+<createdTime>2017-12-14 15:09:10 UTC</createdTime>
+<generatorID>F1902FD2-E9E0-BF42-E0A0-DDAC1DF9DEF8</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<engineerTo>
+<item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
+<item key="8F00BC8B-45A7-3EE3-19B2-788664E008C5" value="true"/>
+</engineerTo>
+<referedAttribute>3DAD3C2F-94C1-3484-CD14-771F011FE3D6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2E57C4DF-98CC-5783-963A-3920B42ABB39" name="Reklamacje PK">
+<createdBy>s426197</createdBy>
+<createdTime>2017-12-14 15:09:10 UTC</createdTime>
+<generatorID>C9CC6CA4-103B-EFD8-CF97-0624BEC5573F</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<engineerTo>
+<item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
+<item key="8F00BC8B-45A7-3EE3-19B2-788664E008C5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>653F5544-2BD2-9DEF-32BB-C1814D28C744</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FF34B05D-0EBF-A935-662A-9C77FBCF3B5B" name="Tranzakcje">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FF34B05D-0EBF-A935-662A-9C77FBCF3B5B" name="Transakcje">
 <createdBy>s426287</createdBy>
 <createdTime>2017-12-11 16:20:44 UTC</createdTime>
 <ownerDesignName>dbForShop</ownerDesignName>
@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="IDTranzakcji" id="3DAD3C2F-94C1-3484-CD14-771F011FE3D6">
+<Attribute name="IDTransakcji" id="3DAD3C2F-94C1-3484-CD14-771F011FE3D6">
 <createdBy>s426287</createdBy>
 <createdTime>2017-12-11 16:21:17 UTC</createdTime>
 <ownerDesignName>dbForShop</ownerDesignName>
@@ -26,9 +26,8 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>32</dataTypeSize>
-<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="IDKlienta" id="7B851FFC-402B-DC49-136B-2C40C7C73214">
 <createdBy>s426287</createdBy>
@@ -42,19 +41,20 @@
 <referedAttribute>074E3B24-BA83-CA6B-07FC-80FB71B9202A</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <dataTypeSize>32</dataTypeSize>
 <ownDataTypeParameters>32,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="IDTowaru" id="AAA7D618-D118-77F7-B0D5-336D0CF04B69">
 <createdBy>s426287</createdBy>
 <createdTime>2017-12-11 16:22:47 UTC</createdTime>
+<generatorID>68CB6F20-FFAD-A584-C63D-5465C997E97A</generatorID>
 <ownerDesignName>dbForShop</ownerDesignName>
 <engineerTo>
 <item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
 <item key="8F00BC8B-45A7-3EE3-19B2-788664E008C5" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>645E5FD3-4EC1-5CF9-D5AD-98FD069545B8</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -78,12 +78,13 @@
 <Attribute name="Rabat" id="B549DBE3-6F49-B57E-3160-F751A18A4ED6">
 <createdBy>s426287</createdBy>
 <createdTime>2017-12-11 16:29:00 UTC</createdTime>
+<generatorID>F545FA32-371A-8D41-5288-E73E66593D4A</generatorID>
 <ownerDesignName>dbForShop</ownerDesignName>
 <engineerTo>
 <item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
 <item key="8F00BC8B-45A7-3EE3-19B2-788664E008C5" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>3034B018-C71F-0D93-5D4E-DC2F0063CD4F</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>

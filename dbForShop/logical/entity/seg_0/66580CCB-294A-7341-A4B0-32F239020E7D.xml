@@ -61,4 +61,20 @@
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="62463878-F619-8451-368D-1AF6686F6EFF" name="Rabaty PK">
+<createdBy>s426197</createdBy>
+<createdTime>2017-12-14 15:09:10 UTC</createdTime>
+<generatorID>B14681FA-1687-C065-6BAC-4E44B91BBECA</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<engineerTo>
+<item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
+<item key="8F00BC8B-45A7-3EE3-19B2-788664E008C5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3034B018-C71F-0D93-5D4E-DC2F0063CD4F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

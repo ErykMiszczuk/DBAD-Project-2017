@@ -16,6 +16,8 @@
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="IDTranzakcji" id="AAFBA797-6331-FD6B-411E-CFF9CDC805EE">

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Tranzakcje_IloscTowarow_FK" directorySegmentName="seg_0" id="68CB6F20-FFAD-A584-C63D-5465C997E97A">
+<createdBy>s426197</createdBy>
+<createdTime>2017-12-14 15:09:10 UTC</createdTime>
+<generatorID>75A5F9A4-EB7D-E543-1FA4-40E0FA9ACCE0</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<engineerTo>
+<item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
+<item key="8F00BC8B-45A7-3EE3-19B2-788664E008C5" value="true"/>
+</engineerTo>
+<sourcePk>D64EBA75-47F5-E222-4A04-82CDB3050D6F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>18B7555D-8814-413D-4ABD-EA2240209B09</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FF34B05D-0EBF-A935-662A-9C77FBCF3B5B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

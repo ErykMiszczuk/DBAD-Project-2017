@@ -24,7 +24,6 @@
 <item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
 <item key="8F00BC8B-45A7-3EE3-19B2-788664E008C5" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -41,9 +40,8 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>11</dataTypeSize>
-<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Email" id="3ACE2AA8-1854-5CDA-EF3C-597BCE6506DC">
 <createdBy>s426287</createdBy>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Faktury_Firmy_FK" directorySegmentName="seg_0" id="108F1639-21CF-56A9-CD57-1C8812277877">
+<createdBy>s426197</createdBy>
+<createdTime>2017-12-14 15:09:10 UTC</createdTime>
+<generatorID>76263982-9D2B-3A69-F978-783795CEDF1C</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<engineerTo>
+<item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
+<item key="8F00BC8B-45A7-3EE3-19B2-788664E008C5" value="true"/>
+</engineerTo>
+<sourcePk>271D2EB4-FB86-11FE-3BB4-D4FE49664DDB</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>53DCB925-D5DD-B7D6-7CA1-A2B695CA2F2A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0277C3F8-15B7-F018-5348-0DFCF971D93A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

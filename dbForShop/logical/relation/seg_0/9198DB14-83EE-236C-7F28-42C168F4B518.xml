@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Faktury_IloscTowarow_FK" directorySegmentName="seg_0" id="9198DB14-83EE-236C-7F28-42C168F4B518">
+<createdBy>s426197</createdBy>
+<createdTime>2017-12-14 15:09:10 UTC</createdTime>
+<generatorID>F55C479E-F957-2253-20E9-76B2DD61A704</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<engineerTo>
+<item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
+<item key="8F00BC8B-45A7-3EE3-19B2-788664E008C5" value="true"/>
+</engineerTo>
+<sourcePk>D64EBA75-47F5-E222-4A04-82CDB3050D6F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>18B7555D-8814-413D-4ABD-EA2240209B09</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0277C3F8-15B7-F018-5348-0DFCF971D93A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

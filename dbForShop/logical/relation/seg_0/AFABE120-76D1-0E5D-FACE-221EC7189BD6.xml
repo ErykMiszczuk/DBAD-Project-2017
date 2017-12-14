@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Reklamacje_Faktury_FK" directorySegmentName="seg_0" id="AFABE120-76D1-0E5D-FACE-221EC7189BD6">
+<createdBy>s426197</createdBy>
+<createdTime>2017-12-14 15:09:10 UTC</createdTime>
+<generatorID>CBC460A5-01E6-2D1F-C144-967644A53478</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<engineerTo>
+<item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
+<item key="8F00BC8B-45A7-3EE3-19B2-788664E008C5" value="true"/>
+</engineerTo>
+<sourcePk>2BA69137-C4B0-3CC5-5A1E-C19C3647439D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0277C3F8-15B7-F018-5348-0DFCF971D93A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B1F2A65B-9126-6FB4-FD71-179D7F073550</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

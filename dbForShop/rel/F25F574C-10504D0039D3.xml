@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_2" id="F25F574C-561F-7EB8-94F7-10504D0039D3" mainViewID="9E8753E4-231D-E9DB-3DBF-82F134EB7D65">
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Final_relational" id="F25F574C-561F-7EB8-94F7-10504D0039D3" mainViewID="9E8753E4-231D-E9DB-3DBF-82F134EB7D65">
 <createdBy>s426287</createdBy>
 <createdTime>2017-12-11 16:35:03 UTC</createdTime>
 <ownerDesignName>projekt-bazy-18-19</ownerDesignName>

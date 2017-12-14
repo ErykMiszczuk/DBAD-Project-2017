@@ -48,7 +48,7 @@
 <dataTypeSize>64</dataTypeSize>
 <ownDataTypeParameters>64,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Towary Nazwa" id="EEB2EA65-FCF6-BF0A-B6AE-F069C12009D9">
+<Attribute name="NazwaTowaru" id="EEB2EA65-FCF6-BF0A-B6AE-F069C12009D9">
 <createdBy>s426287</createdBy>
 <createdTime>2017-12-11 17:10:17 UTC</createdTime>
 <generatorID>1BBE77E8-21CF-8D25-E780-E763D026C396</generatorID>
