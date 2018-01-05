@@ -1,21 +1,20 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Reklamacje_Tranzakcje_FK" directorySegmentName="seg_0" id="F1902FD2-E9E0-BF42-E0A0-DDAC1DF9DEF8">
-<createdBy>s426197</createdBy>
-<createdTime>2017-12-14 15:09:10 UTC</createdTime>
-<generatorID>8FCD0D90-E9E8-ABC8-C19D-611BDA530DC5</generatorID>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Szczegoly_faktury" directorySegmentName="seg_0" id="AAD41E81-B3A1-EF09-BABD-1119C07ECF04">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-17 22:13:48 UTC</createdTime>
 <ownerDesignName>dbForShop</ownerDesignName>
 <engineerTo>
 <item key="8F00BC8B-45A7-3EE3-19B2-788664E008C5" value="true"/>
 <item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
 </engineerTo>
-<sourcePk>7FFFDD59-EFB0-CAAE-D1B8-1903B1758E4D</sourcePk>
+<sourcePk>2BA69137-C4B0-3CC5-5A1E-C19C3647439D</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>FF34B05D-0EBF-A935-662A-9C77FBCF3B5B</sourceEntity>
+<sourceEntity>0277C3F8-15B7-F018-5348-0DFCF971D93A</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>B1F2A65B-9126-6FB4-FD71-179D7F073550</targetEntity>
+<targetEntity>210E77D2-D1D7-9E41-FB3C-7FF441E64DE2</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

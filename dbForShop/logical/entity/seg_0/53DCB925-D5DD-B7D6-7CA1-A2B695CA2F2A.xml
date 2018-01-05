@@ -4,8 +4,8 @@
 <createdTime>2017-12-11 16:10:02 UTC</createdTime>
 <ownerDesignName>dbForShop</ownerDesignName>
 <engineerTo>
-<item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
 <item key="8F00BC8B-45A7-3EE3-19B2-788664E008C5" value="true"/>
+<item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,8 +21,8 @@
 <createdTime>2017-12-11 16:10:02 UTC</createdTime>
 <ownerDesignName>dbForShop</ownerDesignName>
 <engineerTo>
-<item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
 <item key="8F00BC8B-45A7-3EE3-19B2-788664E008C5" value="true"/>
+<item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -35,8 +35,8 @@
 <createdTime>2017-12-11 16:10:02 UTC</createdTime>
 <ownerDesignName>dbForShop</ownerDesignName>
 <engineerTo>
-<item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
 <item key="8F00BC8B-45A7-3EE3-19B2-788664E008C5" value="true"/>
+<item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -48,8 +48,8 @@
 <createdTime>2017-12-11 16:10:02 UTC</createdTime>
 <ownerDesignName>dbForShop</ownerDesignName>
 <engineerTo>
-<item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
 <item key="8F00BC8B-45A7-3EE3-19B2-788664E008C5" value="true"/>
+<item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -63,8 +63,8 @@
 <createdTime>2017-12-11 16:10:02 UTC</createdTime>
 <ownerDesignName>dbForShop</ownerDesignName>
 <engineerTo>
-<item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
 <item key="8F00BC8B-45A7-3EE3-19B2-788664E008C5" value="true"/>
+<item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -78,8 +78,8 @@
 <createdTime>2017-12-11 16:10:02 UTC</createdTime>
 <ownerDesignName>dbForShop</ownerDesignName>
 <engineerTo>
-<item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
 <item key="8F00BC8B-45A7-3EE3-19B2-788664E008C5" value="true"/>
+<item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -93,8 +93,8 @@
 <createdTime>2017-12-11 16:10:02 UTC</createdTime>
 <ownerDesignName>dbForShop</ownerDesignName>
 <engineerTo>
-<item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
 <item key="8F00BC8B-45A7-3EE3-19B2-788664E008C5" value="true"/>
+<item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -108,8 +108,8 @@
 <createdTime>2017-12-11 16:10:02 UTC</createdTime>
 <ownerDesignName>dbForShop</ownerDesignName>
 <engineerTo>
-<item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
 <item key="8F00BC8B-45A7-3EE3-19B2-788664E008C5" value="true"/>
+<item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -123,8 +123,8 @@
 <createdTime>2017-12-11 16:10:02 UTC</createdTime>
 <ownerDesignName>dbForShop</ownerDesignName>
 <engineerTo>
-<item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
 <item key="8F00BC8B-45A7-3EE3-19B2-788664E008C5" value="true"/>
+<item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -138,8 +138,8 @@
 <createdTime>2017-12-11 16:10:02 UTC</createdTime>
 <ownerDesignName>dbForShop</ownerDesignName>
 <engineerTo>
-<item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
 <item key="8F00BC8B-45A7-3EE3-19B2-788664E008C5" value="true"/>
+<item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -156,8 +156,8 @@
 <generatorID>FE777F1B-9837-9AF1-3BB4-6974CBCE3100</generatorID>
 <ownerDesignName>dbForShop</ownerDesignName>
 <engineerTo>
-<item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
 <item key="8F00BC8B-45A7-3EE3-19B2-788664E008C5" value="true"/>
+<item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -1,12 +1,11 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="IloscTowarow_Towary_FK" directorySegmentName="seg_0" id="1BBE77E8-21CF-8D25-E780-E763D026C396">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_18" directorySegmentName="seg_0" id="31AA2B92-976C-E323-BFA3-DE9780171353">
 <createdBy>s426287</createdBy>
-<createdTime>2017-12-11 17:10:17 UTC</createdTime>
-<generatorID>835CBA01-ABB0-36E4-4D2E-ED0598F191F9</generatorID>
+<createdTime>2017-12-17 22:28:15 UTC</createdTime>
 <ownerDesignName>dbForShop</ownerDesignName>
 <engineerTo>
-<item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
 <item key="8F00BC8B-45A7-3EE3-19B2-788664E008C5" value="true"/>
+<item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
 </engineerTo>
 <sourcePk>0C31010E-1A11-6EDE-FC23-3A17BB6C912C</sourcePk>
 <identifying>false</identifying>
@@ -15,7 +14,7 @@
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>A26867E3-B837-1E1E-61CF-C55FCE01427F</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>18B7555D-8814-413D-4ABD-EA2240209B09</targetEntity>
+<targetEntity>20DCDCE8-E1C0-4FAA-FBE4-E7FBCE00DB5A</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

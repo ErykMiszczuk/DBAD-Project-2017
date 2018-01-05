@@ -94,10 +94,22 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="OkresReklamacji" id="1ED73914-77A2-21A6-B17D-E0D56B00AF42">
+<Column name="OkresZwrotu" id="1ED73914-77A2-21A6-B17D-E0D56B00AF42">
 <createdBy>s426287</createdBy>
 <createdTime>2017-12-11 16:41:05 UTC</createdTime>
 <generatorID>C51D3269-F52C-17A3-896C-F0E9A6715A10</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ilosc" id="674A6250-129D-F5A9-9DFE-91292FD389D0">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-17 22:38:57 UTC</createdTime>
+<generatorID>1299F341-0C56-8E31-2465-85CDD92A4D6B</generatorID>
 <ownerDesignName>dbForShop</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>

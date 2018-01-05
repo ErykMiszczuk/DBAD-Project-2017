@@ -21,7 +21,7 @@
 <autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="IDKlienta" id="C0555455-D5F1-9316-1119-3E86EE651CEB">
+<Column name="Firmy_Nip" id="C0555455-D5F1-9316-1119-3E86EE651CEB">
 <createdBy>s426287</createdBy>
 <createdTime>2017-12-11 16:41:05 UTC</createdTime>
 <generatorID>DF62F702-995A-8824-6C45-A315C7B5B5B0</generatorID>
@@ -36,21 +36,6 @@
 <colAssociation fkAssociation="76263982-9D2B-3A69-F978-783795CEDF1C" referredColumn="E63D76FD-BFE9-E47D-DA62-B80FABAED47D"/>
 </associations>
 </Column>
-<Column name="IDTowaru" id="E9951C72-F347-4611-7BDE-AC757303C2D3">
-<createdBy>s426287</createdBy>
-<createdTime>2017-12-11 16:41:05 UTC</createdTime>
-<generatorID>551E4532-C6CC-A6D8-C0BC-A05D142FAFB6</generatorID>
-<ownerDesignName>dbForShop</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>64</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="F55C479E-F957-2253-20E9-76B2DD61A704" referredColumn="00369697-F764-C83A-08E8-44B6C83A201F"/>
-</associations>
-</Column>
 <Column name="DataSprzedarzy" id="7C6E3307-5FA2-F031-D8D6-A99925F42281">
 <createdBy>s426287</createdBy>
 <createdTime>2017-12-11 16:41:05 UTC</createdTime>
@@ -63,7 +48,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Rabat" id="932ADE26-2615-31D3-3037-F60959C6FAF5">
+<Column name="Rabaty_NazwaRabatu" id="932ADE26-2615-31D3-3037-F60959C6FAF5">
 <createdBy>s426287</createdBy>
 <createdTime>2017-12-11 16:41:05 UTC</createdTime>
 <generatorID>B4FBBCE1-5495-2E46-0659-4A94B828BABC</generatorID>
@@ -72,7 +57,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>32</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="45C98E0E-5425-1752-88CD-87C7D356D68A" referredColumn="B24C6346-3A83-9E7F-3329-C905E3A250D5"/>
@@ -122,16 +107,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="932ADE26-2615-31D3-3037-F60959C6FAF5"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="44C7C624-1442-3B2C-4074-B5015771791F" name="Faktury_IloscTowarow_FK">
-<createdBy>s426287</createdBy>
-<createdTime>2017-12-11 17:18:14 UTC</createdTime>
-<ownerDesignName>dbForShop</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="E9951C72-F347-4611-7BDE-AC757303C2D3"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

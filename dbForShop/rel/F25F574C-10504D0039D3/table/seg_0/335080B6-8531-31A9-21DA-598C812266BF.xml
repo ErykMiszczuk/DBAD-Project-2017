@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="335080B6-8531-31A9-21DA-598C812266BF" name="Egzemlarze">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-17 22:38:57 UTC</createdTime>
+<generatorID>20DCDCE8-E1C0-4FAA-FBE4-E7FBCE00DB5A</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NrSeryjny" id="84B6AC60-A992-47F7-06EC-57BE8CF1ACD8">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-17 22:38:57 UTC</createdTime>
+<generatorID>328C7CA9-ADC7-D844-CC52-879E4F179C5C</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SzczegolyFaktury_NrSeryjny" id="66BB7D58-B2DB-DADB-EE0A-1F4255881AB4">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-17 22:38:57 UTC</createdTime>
+<generatorID>F075C55F-EE92-317B-F1A1-8569A2D6757D</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="857A2F98-D4A2-C437-F279-6FE710629BC5" referredColumn="83431004-4796-C381-BB4C-5244273C7D82"/>
+</associations>
+</Column>
+<Column name="Towary_Nazwa" id="D6D40BF6-3789-7FE8-A54C-77F40D54D66C">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-17 22:38:57 UTC</createdTime>
+<generatorID>D8A508D5-EED2-7D53-ED5E-4145E1549C1E</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="12881798-B2B6-5CAA-6595-FAC510C820B2" referredColumn="4C7BF709-078F-B534-B2F8-1410EA6032CA"/>
+</associations>
+</Column>
+<Column name="SzczegolyTranzakcji_NrSeryjny" id="66A2EA49-E195-D265-4E59-E8F75ACD9221">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-17 23:13:35 UTC</createdTime>
+<generatorID>92209B86-AD35-014C-3A64-0BE3FAB62ED4</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9AFF206C-BA8C-F73C-82B8-6D344294CAE9" referredColumn="00369697-F764-C83A-08E8-44B6C83A201F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1A9320CC-14B7-A915-A8D2-1B5519F9A563" name="Egzemlarze_PK">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-17 22:38:57 UTC</createdTime>
+<generatorID>516F8EA1-70AE-CEF6-513A-79F64D9DEE4E</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84B6AC60-A992-47F7-06EC-57BE8CF1ACD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D8EBCFF0-C568-5715-6E32-814FE0D80B03" name="Egzemlarze__IDX">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-17 22:38:57 UTC</createdTime>
+<ownerDesignName>dbForShop</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>A984AD79-B7DF-5787-B61F-4402B8D9C00B</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="66BB7D58-B2DB-DADB-EE0A-1F4255881AB4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BF623CA3-C81A-E6B4-0AF7-AB4D8585DD34" name="Egzemlarze__IDXv1">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-17 23:13:35 UTC</createdTime>
+<ownerDesignName>dbForShop</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>0685564D-F7D3-F471-52EE-2CA42A035C29</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="66A2EA49-E195-D265-4E59-E8F75ACD9221"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E207F737-D702-5AD4-F784-48304ACA95D0" name="Egzemlarze_SzczegolyFaktury_FK">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-17 22:38:57 UTC</createdTime>
+<generatorID>A984AD79-B7DF-5787-B61F-4402B8D9C00B</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66BB7D58-B2DB-DADB-EE0A-1F4255881AB4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="09AE4B15-9459-98F0-1306-470BD693048B" name="Egzemlarze_Towary_FK">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-17 22:38:57 UTC</createdTime>
+<generatorID>31AA2B92-976C-E323-BFA3-DE9780171353</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6D40BF6-3789-7FE8-A54C-77F40D54D66C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A72062C4-2B44-C08A-64A2-63C25FBBACF1" name="Egzemlarze_SzczegolyTranzakcji_FK">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-17 23:13:35 UTC</createdTime>
+<generatorID>0685564D-F7D3-F471-52EE-2CA42A035C29</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66A2EA49-E195-D265-4E59-E8F75ACD9221"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

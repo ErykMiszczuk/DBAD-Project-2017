@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F5D93DFB-A20F-233A-B37B-D431A5D9B81B" containerWithKeyObject="9C3CA856-802D-773C-DF2B-6293307B9B42" localFKIndex="2189E647-A341-9BD6-F4EC-43CE3428C460" name="SzczegolyFaktury_Faktury_FK">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-17 22:38:57 UTC</createdTime>
+<generatorID>AAD41E81-B3A1-EF09-BABD-1119C07ECF04</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<referredTableLongName>Faktury</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>53B13AC9-A2A4-23AD-FB8B-17654CDB89AE</referredTableID>
+<keyObject>189C3FAA-0177-72AA-EBA5-512749B3BC62</keyObject>
+<referredKeyID>189C3FAA-0177-72AA-EBA5-512749B3BC62</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NrFaktury</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

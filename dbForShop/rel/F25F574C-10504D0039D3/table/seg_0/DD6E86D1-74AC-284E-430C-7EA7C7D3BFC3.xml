@@ -20,7 +20,7 @@
 <autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="IDTranzakcji" id="AAFBA797-6331-FD6B-411E-CFF9CDC805EE">
+<Column name="IDTranzakcji1" id="AAFBA797-6331-FD6B-411E-CFF9CDC805EE">
 <createdBy>s426287</createdBy>
 <createdTime>2017-12-11 16:41:05 UTC</createdTime>
 <generatorID>32290BCA-2AF6-BD98-EE1D-38E4D4027C62</generatorID>
@@ -83,7 +83,7 @@
 <colUsage columnID="A9E5D094-9823-D543-407A-29601325C1B4"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="0CB3ABD6-EF7E-2E49-5D9F-B388E9F96C5E" name="Reklamacje_Tranzakcje_FK">
+<ind_PK_UK id="0CB3ABD6-EF7E-2E49-5D9F-B388E9F96C5E" name="Reklamacje_Transakcje_FK">
 <createdBy>s426197</createdBy>
 <createdTime>2017-12-14 14:33:24 UTC</createdTime>
 <ownerDesignName>dbForShop</ownerDesignName>

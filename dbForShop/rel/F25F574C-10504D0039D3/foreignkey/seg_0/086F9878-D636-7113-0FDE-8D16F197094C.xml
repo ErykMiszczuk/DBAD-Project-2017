@@ -1,7 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8FCD0D90-E9E8-ABC8-C19D-611BDA530DC5" containerWithKeyObject="DD6E86D1-74AC-284E-430C-7EA7C7D3BFC3" localFKIndex="0CB3ABD6-EF7E-2E49-5D9F-B388E9F96C5E" name="Reklamacje_Transakcje_FK">
-<createdBy>s426197</createdBy>
-<createdTime>2017-12-14 14:33:24 UTC</createdTime>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="086F9878-D636-7113-0FDE-8D16F197094C" containerWithKeyObject="E8B66FC6-63B5-78DA-CD88-9468B2372FCA" localFKIndex="DBFA365D-B1C5-F6FA-4D58-D1F56784FBCB" name="SzczegolyTranzakcji_Transakcje_FK">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-17 22:38:57 UTC</createdTime>
+<generatorID>655D38F9-665D-F477-0D0A-C44929D23AFF</generatorID>
 <ownerDesignName>dbForShop</ownerDesignName>
 <referredTableLongName>Transakcje</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

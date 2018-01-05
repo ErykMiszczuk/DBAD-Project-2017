@@ -1,7 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="835CBA01-ABB0-36E4-4D2E-ED0598F191F9" containerWithKeyObject="E8B66FC6-63B5-78DA-CD88-9468B2372FCA" localFKIndex="FC333811-6F1E-4E98-E634-E78510FE1423" name="IloscTowarow_Towary_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="12881798-B2B6-5CAA-6595-FAC510C820B2" containerWithKeyObject="335080B6-8531-31A9-21DA-598C812266BF" localFKIndex="09AE4B15-9459-98F0-1306-470BD693048B" name="Egzemlarze_Towary_FK">
 <createdBy>s426287</createdBy>
-<createdTime>2017-12-11 17:00:38 UTC</createdTime>
+<createdTime>2017-12-17 22:38:57 UTC</createdTime>
+<generatorID>31AA2B92-976C-E323-BFA3-DE9780171353</generatorID>
 <ownerDesignName>dbForShop</ownerDesignName>
 <referredTableLongName>Towary</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

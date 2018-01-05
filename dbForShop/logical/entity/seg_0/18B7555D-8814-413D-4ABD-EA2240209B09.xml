@@ -1,12 +1,12 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="18B7555D-8814-413D-4ABD-EA2240209B09" name="IloscTowarow">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="18B7555D-8814-413D-4ABD-EA2240209B09" name="SzczegolyTranzakcji">
 <createdBy>s426287</createdBy>
 <createdTime>2017-12-11 17:10:17 UTC</createdTime>
 <generatorID>E8B66FC6-63B5-78DA-CD88-9468B2372FCA</generatorID>
 <ownerDesignName>dbForShop</ownerDesignName>
 <engineerTo>
-<item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
 <item key="8F00BC8B-45A7-3EE3-19B2-788664E008C5" value="true"/>
+<item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -23,8 +23,8 @@
 <generatorID>00369697-F764-C83A-08E8-44B6C83A201F</generatorID>
 <ownerDesignName>dbForShop</ownerDesignName>
 <engineerTo>
-<item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
 <item key="8F00BC8B-45A7-3EE3-19B2-788664E008C5" value="true"/>
+<item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,37 +32,20 @@
 <dataTypeSize>64</dataTypeSize>
 <ownDataTypeParameters>64,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="IDTowaru" id="1C99FEA4-86C2-575D-974F-E3B7F6138657">
+<Attribute name="IDTransakcji" id="05FC4F2D-3CF2-8E26-5318-3C27CC539A1B">
 <createdBy>s426287</createdBy>
-<createdTime>2017-12-11 17:10:17 UTC</createdTime>
-<generatorID>E946921B-EFC1-1B0B-F206-22DB8026BC86</generatorID>
+<createdTime>2017-12-17 22:13:25 UTC</createdTime>
+<generatorID>655D38F9-665D-F477-0D0A-C44929D23AFF</generatorID>
 <ownerDesignName>dbForShop</ownerDesignName>
 <engineerTo>
-<item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
 <item key="8F00BC8B-45A7-3EE3-19B2-788664E008C5" value="true"/>
+<item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>3DAD3C2F-94C1-3484-CD14-771F011FE3D6</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>64</dataTypeSize>
-<ownDataTypeParameters>64,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="NazwaTowaru" id="EEB2EA65-FCF6-BF0A-B6AE-F069C12009D9">
-<createdBy>s426287</createdBy>
-<createdTime>2017-12-11 17:10:17 UTC</createdTime>
-<generatorID>1BBE77E8-21CF-8D25-E780-E763D026C396</generatorID>
-<ownerDesignName>dbForShop</ownerDesignName>
-<engineerTo>
-<item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
-<item key="8F00BC8B-45A7-3EE3-19B2-788664E008C5" value="true"/>
-</engineerTo>
-<referedAttribute>DEE032EB-26AB-8BAE-085E-571BE4D4EB75</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>64</dataTypeSize>
-<ownDataTypeParameters>64,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -72,8 +55,8 @@
 <generatorID>379314F6-FECA-DB35-926A-AB5D37AC7C12</generatorID>
 <ownerDesignName>dbForShop</ownerDesignName>
 <engineerTo>
-<item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
 <item key="8F00BC8B-45A7-3EE3-19B2-788664E008C5" value="true"/>
+<item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

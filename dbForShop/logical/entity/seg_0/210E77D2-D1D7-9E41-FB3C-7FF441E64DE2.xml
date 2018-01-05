@@ -1,7 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="66580CCB-294A-7341-A4B0-32F239020E7D" name="Rabaty">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="210E77D2-D1D7-9E41-FB3C-7FF441E64DE2" name="SzczegolyFaktury">
 <createdBy>s426287</createdBy>
-<createdTime>2017-12-11 16:12:19 UTC</createdTime>
+<createdTime>2017-12-17 22:10:48 UTC</createdTime>
+<generatorID>E8B66FC6-63B5-78DA-CD88-9468B2372FCA</generatorID>
 <ownerDesignName>dbForShop</ownerDesignName>
 <engineerTo>
 <item key="8F00BC8B-45A7-3EE3-19B2-788664E008C5" value="true"/>
@@ -16,9 +17,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="NazwaRabatu" id="3034B018-C71F-0D93-5D4E-DC2F0063CD4F">
+<Attribute name="NrSeryjny" id="C115920B-E371-0150-B063-87B622B0B5A3">
 <createdBy>s426287</createdBy>
-<createdTime>2017-12-11 16:12:26 UTC</createdTime>
+<createdTime>2017-12-17 22:10:48 UTC</createdTime>
+<generatorID>00369697-F764-C83A-08E8-44B6C83A201F</generatorID>
 <ownerDesignName>dbForShop</ownerDesignName>
 <engineerTo>
 <item key="8F00BC8B-45A7-3EE3-19B2-788664E008C5" value="true"/>
@@ -27,45 +29,30 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>32</dataTypeSize>
-<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Procent" id="CB17A9C3-BF49-F4E5-3405-295809EA2C52">
+<Attribute name="NrFaktury" id="773848E0-38C5-7556-8F4B-732389AA6A8B">
 <createdBy>s426287</createdBy>
-<createdTime>2017-12-11 16:12:50 UTC</createdTime>
+<createdTime>2017-12-17 22:13:48 UTC</createdTime>
+<generatorID>AAD41E81-B3A1-EF09-BABD-1119C07ECF04</generatorID>
 <ownerDesignName>dbForShop</ownerDesignName>
 <engineerTo>
 <item key="8F00BC8B-45A7-3EE3-19B2-788664E008C5" value="true"/>
 <item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>AB0740F1-2CE7-AC9D-0A68-9EF0245BE0D8</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>4</dataTypeSize>
-<ownDataTypeParameters>4,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="WartoscRabatu" id="629BB9AE-9D60-114B-6810-A8407C97B6CE">
-<createdBy>s426287</createdBy>
-<createdTime>2017-12-11 16:13:41 UTC</createdTime>
-<ownerDesignName>dbForShop</ownerDesignName>
-<engineerTo>
-<item key="8F00BC8B-45A7-3EE3-19B2-788664E008C5" value="true"/>
-<item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT021</logicalDatatype>
-<dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="62463878-F619-8451-368D-1AF6686F6EFF" name="Rabaty PK">
-<createdBy>s426197</createdBy>
-<createdTime>2017-12-14 15:09:10 UTC</createdTime>
-<generatorID>B14681FA-1687-C065-6BAC-4E44B91BBECA</generatorID>
+<identifier id="A3DCD3D8-84E2-2E6F-CA3A-60822AC913B8" name="IloscTowarow PK">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-17 22:10:48 UTC</createdTime>
+<generatorID>379314F6-FECA-DB35-926A-AB5D37AC7C12</generatorID>
 <ownerDesignName>dbForShop</ownerDesignName>
 <engineerTo>
 <item key="8F00BC8B-45A7-3EE3-19B2-788664E008C5" value="true"/>
@@ -73,7 +60,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>3034B018-C71F-0D93-5D4E-DC2F0063CD4F</attributeRef>
+<attributeRef>C115920B-E371-0150-B063-87B622B0B5A3</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

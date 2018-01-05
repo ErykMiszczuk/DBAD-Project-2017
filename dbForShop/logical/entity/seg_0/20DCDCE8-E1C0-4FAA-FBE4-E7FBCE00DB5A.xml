@@ -1,7 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0277C3F8-15B7-F018-5348-0DFCF971D93A" name="Faktury">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="20DCDCE8-E1C0-4FAA-FBE4-E7FBCE00DB5A" name="Egzemlarze ">
 <createdBy>s426287</createdBy>
-<createdTime>2017-12-11 16:24:25 UTC</createdTime>
+<createdTime>2017-12-17 22:14:18 UTC</createdTime>
+<generatorID>E8B66FC6-63B5-78DA-CD88-9468B2372FCA</generatorID>
 <ownerDesignName>dbForShop</ownerDesignName>
 <engineerTo>
 <item key="8F00BC8B-45A7-3EE3-19B2-788664E008C5" value="true"/>
@@ -16,86 +17,75 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="NrFaktury" id="AB0740F1-2CE7-AC9D-0A68-9EF0245BE0D8">
+<Attribute name="NrSeryjny" id="328C7CA9-ADC7-D844-CC52-879E4F179C5C">
 <createdBy>s426287</createdBy>
-<createdTime>2017-12-11 16:24:25 UTC</createdTime>
+<createdTime>2017-12-17 22:14:18 UTC</createdTime>
+<generatorID>00369697-F764-C83A-08E8-44B6C83A201F</generatorID>
 <ownerDesignName>dbForShop</ownerDesignName>
 <engineerTo>
 <item key="8F00BC8B-45A7-3EE3-19B2-788664E008C5" value="true"/>
 <item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="IDKlienta" id="DF62F702-995A-8824-6C45-A315C7B5B5B0">
-<createdBy>s426287</createdBy>
-<createdTime>2017-12-11 16:24:25 UTC</createdTime>
-<generatorID>108F1639-21CF-56A9-CD57-1C8812277877</generatorID>
-<ownerDesignName>dbForShop</ownerDesignName>
-<engineerTo>
-<item key="8F00BC8B-45A7-3EE3-19B2-788664E008C5" value="true"/>
-<item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
-</engineerTo>
-<referedAttribute>906CD242-73F1-F2BB-05C8-244EE97C6CB7</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<dataTypeSize>32</dataTypeSize>
-<ownDataTypeParameters>32,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="DataSprzedarzy" id="8ADD287B-C9DE-36B7-B928-786D44FB154A">
-<createdBy>s426287</createdBy>
-<createdTime>2017-12-11 16:24:25 UTC</createdTime>
-<ownerDesignName>dbForShop</ownerDesignName>
-<engineerTo>
-<item key="8F00BC8B-45A7-3EE3-19B2-788664E008C5" value="true"/>
-<item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Rabat" id="B4FBBCE1-5495-2E46-0659-4A94B828BABC">
-<createdBy>s426287</createdBy>
-<createdTime>2017-12-11 16:29:51 UTC</createdTime>
-<generatorID>3623AC14-8F9A-28DF-EE3E-D9C907C389FC</generatorID>
-<ownerDesignName>dbForShop</ownerDesignName>
-<engineerTo>
-<item key="8F00BC8B-45A7-3EE3-19B2-788664E008C5" value="true"/>
-<item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
-</engineerTo>
-<referedAttribute>3034B018-C71F-0D93-5D4E-DC2F0063CD4F</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>32</dataTypeSize>
-<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="WartoscZakupu" id="EC893DA6-9E13-3FD1-7C10-A50656EDD5EA">
+<Attribute name="NrSeryjny1" id="F075C55F-EE92-317B-F1A1-8569A2D6757D">
 <createdBy>s426287</createdBy>
-<createdTime>2017-12-11 16:30:13 UTC</createdTime>
+<createdTime>2017-12-17 22:18:10 UTC</createdTime>
+<generatorID>A984AD79-B7DF-5787-B61F-4402B8D9C00B</generatorID>
 <ownerDesignName>dbForShop</ownerDesignName>
 <engineerTo>
 <item key="8F00BC8B-45A7-3EE3-19B2-788664E008C5" value="true"/>
 <item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>C115920B-E371-0150-B063-87B622B0B5A3</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT021</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwa1" id="D8A508D5-EED2-7D53-ED5E-4145E1549C1E">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-17 22:28:15 UTC</createdTime>
+<generatorID>31AA2B92-976C-E323-BFA3-DE9780171353</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<engineerTo>
+<item key="8F00BC8B-45A7-3EE3-19B2-788664E008C5" value="true"/>
+<item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
+</engineerTo>
+<referedAttribute>DEE032EB-26AB-8BAE-085E-571BE4D4EB75</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NrSeryjny2" id="92209B86-AD35-014C-3A64-0BE3FAB62ED4">
+<createdBy>s426287</createdBy>
+<createdTime>2017-12-17 23:13:23 UTC</createdTime>
+<generatorID>0685564D-F7D3-F471-52EE-2CA42A035C29</generatorID>
+<ownerDesignName>dbForShop</ownerDesignName>
+<engineerTo>
+<item key="8F00BC8B-45A7-3EE3-19B2-788664E008C5" value="true"/>
+<item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
+</engineerTo>
+<referedAttribute>645E5FD3-4EC1-5CF9-D5AD-98FD069545B8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="2BA69137-C4B0-3CC5-5A1E-C19C3647439D" name="Faktury PK">
+<identifier id="516F8EA1-70AE-CEF6-513A-79F64D9DEE4E" name="IloscTowarow PK">
 <createdBy>s426287</createdBy>
-<createdTime>2017-12-11 17:10:17 UTC</createdTime>
-<generatorID>189C3FAA-0177-72AA-EBA5-512749B3BC62</generatorID>
+<createdTime>2017-12-17 22:14:18 UTC</createdTime>
+<generatorID>379314F6-FECA-DB35-926A-AB5D37AC7C12</generatorID>
 <ownerDesignName>dbForShop</ownerDesignName>
 <engineerTo>
 <item key="8F00BC8B-45A7-3EE3-19B2-788664E008C5" value="true"/>
@@ -103,7 +93,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>AB0740F1-2CE7-AC9D-0A68-9EF0245BE0D8</attributeRef>
+<attributeRef>328C7CA9-ADC7-D844-CC52-879E4F179C5C</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

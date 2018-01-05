@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F55C479E-F957-2253-20E9-76B2DD61A704" containerWithKeyObject="53B13AC9-A2A4-23AD-FB8B-17654CDB89AE" localFKIndex="44C7C624-1442-3B2C-4074-B5015771791F" name="Faktury_IloscTowarow_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9AFF206C-BA8C-F73C-82B8-6D344294CAE9" containerWithKeyObject="335080B6-8531-31A9-21DA-598C812266BF" localFKIndex="A72062C4-2B44-C08A-64A2-63C25FBBACF1" name="Egzemlarze_SzczegolyTranzakcji_FK">
 <createdBy>s426287</createdBy>
-<createdTime>2017-12-11 17:18:14 UTC</createdTime>
+<createdTime>2017-12-17 23:13:35 UTC</createdTime>
+<generatorID>0685564D-F7D3-F471-52EE-2CA42A035C29</generatorID>
 <ownerDesignName>dbForShop</ownerDesignName>
-<referredTableLongName>IloscTowarow</referredTableLongName>
+<referredTableLongName>SzczegolyTranzakcji</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>E8B66FC6-63B5-78DA-CD88-9468B2372FCA</referredTableID>
 <keyObject>379314F6-FECA-DB35-926A-AB5D37AC7C12</keyObject>

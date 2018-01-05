@@ -5,8 +5,8 @@
 <generatorID>CBC460A5-01E6-2D1F-C144-967644A53478</generatorID>
 <ownerDesignName>dbForShop</ownerDesignName>
 <engineerTo>
-<item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
 <item key="8F00BC8B-45A7-3EE3-19B2-788664E008C5" value="true"/>
+<item key="F25F574C-561F-7EB8-94F7-10504D0039D3" value="true"/>
 </engineerTo>
 <sourcePk>2BA69137-C4B0-3CC5-5A1E-C19C3647439D</sourcePk>
 <identifying>false</identifying>
