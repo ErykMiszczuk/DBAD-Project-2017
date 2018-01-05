@@ -3,20 +3,40 @@
 --   site:      SQL Server 2000
 --   type:      SQL Server 2000
 
+SET LANGUAGE polski
+GO
 
-
-CREATE TABLE Egzemlarze 
+---- Usuń tabele jeśli istnieją
+IF OBJECT_ID('Egzemplarze', 'U') IS NOT NULL 
+	DROP TABLE Egzemplarze;
+IF OBJECT_ID('Firmy', 'U') IS NOT NULL 
+	DROP TABLE Firmy;
+IF OBJECT_ID('Klienci_indywidualni', 'U') IS NOT NULL 
+	DROP TABLE Klienci_indywidualni;
+IF OBJECT_ID('Rabaty', 'U') IS NOT NULL 
+	DROP TABLE Rabaty;
+IF OBJECT_ID('Reklamacje', 'U') IS NOT NULL 
+	DROP TABLE Reklamacje;
+IF OBJECT_ID('SzczegolyFaktury', 'U') IS NOT NULL 
+	DROP TABLE SzczegolyFaktury;
+IF OBJECT_ID('SzczegolyTransakcji', 'U') IS NOT NULL 
+	DROP TABLE SzczegolyTransakcji;
+IF OBJECT_ID('Faktury', 'U') IS NOT NULL 
+	DROP TABLE Faktury;
+IF OBJECT_ID('Transakcje', 'U') IS NOT NULL 
+	DROP TABLE Transakcje;
+IF OBJECT_ID('Towary', 'U') IS NOT NULL 
+	DROP TABLE Towary;
+	
+---- Utworzenie tabeli Egzemplarze 
+CREATE TABLE Egzemplarze 
     (
      NrSeryjny VARCHAR (64) NOT NULL , 
      SzczegolyFaktury_NrSeryjny VARCHAR (64) NOT NULL , 
      Towary_Nazwa VARCHAR (64) NOT NULL , 
-     SzczegolyTranzakcji_NrSeryjny VARCHAR (64) NOT NULL 
+     SzczegolyTransakcji_NrSeryjny VARCHAR (64) NOT NULL 
     )
 GO 
-
-
-    
-
 
 CREATE UNIQUE NONCLUSTERED INDEX 
     Egzemlarze__IDX ON Egzemlarze 
@@ -25,34 +45,35 @@ CREATE UNIQUE NONCLUSTERED INDEX
     ) 
 GO 
 
-
 CREATE UNIQUE NONCLUSTERED INDEX 
     Egzemlarze__IDXv1 ON Egzemlarze 
     ( 
-     SzczegolyTranzakcji_NrSeryjny 
+     SzczegolyTransakcji_NrSeryjny 
     ) 
 GO
 
-ALTER TABLE Egzemlarze ADD CONSTRAINT Egzemlarze_PK PRIMARY KEY CLUSTERED (NrSeryjny)
+ALTER TABLE Egzemplarze ADD CONSTRAINT Egzemplarze_PK PRIMARY KEY NrSeryjny
     GO
 
+---- Utworzenie tabeli Faktury	
 CREATE TABLE Faktury 
     (
-     NrFaktury INTEGER NOT NULL , 
-     Firmy_Nip INTEGER NOT NULL , 
+     NrFaktury INTEGER (32) NOT NULL , 
+     Firmy_Nip INTEGER (32) NOT NULL , 
      DataSprzedarzy DATETIME , 
      Rabaty_NazwaRabatu VARCHAR (32) NOT NULL , 
-     WartoscZakupu FLOAT (2) 
+     WartoscZakupu FLOAT (64) 
     )
 GO
 
-ALTER TABLE Faktury ADD CONSTRAINT Faktury_PK PRIMARY KEY CLUSTERED (NrFaktury)
+ALTER TABLE Faktury ADD CONSTRAINT Faktury_PK PRIMARY KEY NrFaktury
     GO
 
+---- Utworzenie tabeli Firmy
 CREATE TABLE Firmy 
     (
      Nazwa VARCHAR (64) NOT NULL , 
-     Nip INTEGER NOT NULL , 
+     Nip INTEGER (10) NOT NULL , 
      Email VARCHAR (64) , 
      NrTelefonu VARCHAR (9) , 
      KodPocztowy VARCHAR (6) , 
@@ -63,12 +84,13 @@ CREATE TABLE Firmy
     )
 GO
 
-ALTER TABLE Firmy ADD CONSTRAINT Firmy_PK PRIMARY KEY CLUSTERED (Nip)
+ALTER TABLE Firmy ADD CONSTRAINT Firmy_PK PRIMARY KEY Nip
     GO
 
+---- Utworzenie tabeli Klienci_indywidualni
 CREATE TABLE Klienci_indywidualni 
     (
-     ID INTEGER NOT NULL , 
+     ID INTEGER (64) NOT NULL , 
      Imie VARCHAR (32) , 
      Nazwisko VARCHAR (32) , 
      Email VARCHAR (64) NOT NULL , 
@@ -84,6 +106,7 @@ GO
 ALTER TABLE Klienci_indywidualni ADD CONSTRAINT Klienci_indywidualni_PK PRIMARY KEY CLUSTERED (ID)
     GO
 
+---- Utworzenie tabeli Rabaty
 CREATE TABLE Rabaty 
     (
      NazwaRabatu VARCHAR (32) NOT NULL , 
@@ -95,6 +118,7 @@ GO
 ALTER TABLE Rabaty ADD CONSTRAINT Rabaty_PK PRIMARY KEY CLUSTERED (NazwaRabatu)
     GO
 
+---- Utworzenie tabeli Reklamacje
 CREATE TABLE Reklamacje 
     (
      IDReklamacji INTEGER NOT NULL , 
@@ -108,6 +132,7 @@ GO
 ALTER TABLE Reklamacje ADD CONSTRAINT Reklamacje_PK PRIMARY KEY CLUSTERED (IDReklamacji)
     GO
 
+---- Utworzenie tabeli SzczegolyFaktury
 CREATE TABLE SzczegolyFaktury 
     (
      NrSeryjny VARCHAR (64) NOT NULL , 
@@ -119,7 +144,8 @@ GO
 ALTER TABLE SzczegolyFaktury ADD CONSTRAINT SzczegolyFaktury_PK PRIMARY KEY CLUSTERED (NrSeryjny)
     GO
 
-CREATE TABLE SzczegolyTranzakcji 
+---- Utworzenie tabeli SzczegolyTransakcji
+CREATE TABLE SzczegolyTransakcji 
     (
      NrSeryjny VARCHAR (64) NOT NULL , 
      IDTowaru VARCHAR (64) , 
@@ -127,19 +153,16 @@ CREATE TABLE SzczegolyTranzakcji
     )
 GO 
 
-
-    
-
-
 CREATE UNIQUE NONCLUSTERED INDEX 
-    IloscTowarow__IDX ON SzczegolyTranzakcji 
+    IloscTowarow__IDX ON SzczegolyTransakcji 
     ( 
     ) 
 GO
 
-ALTER TABLE SzczegolyTranzakcji ADD CONSTRAINT SzczegolyTranzakcji_PK PRIMARY KEY CLUSTERED (NrSeryjny)
+ALTER TABLE SzczegolyTransakcji ADD CONSTRAINT SzczegolyTransakcji_PK PRIMARY KEY CLUSTERED (NrSeryjny)
     GO
 
+---- Utworzenie tabeli Towary
 CREATE TABLE Towary 
     (
      Nazwa VARCHAR (64) NOT NULL , 
@@ -157,6 +180,7 @@ GO
 ALTER TABLE Towary ADD CONSTRAINT Towary_PK PRIMARY KEY CLUSTERED (Nazwa)
     GO
 
+---- Utworzenie tabeli Transakcje
 CREATE TABLE Transakcje 
     (
      IDTransakcji INTEGER NOT NULL , 
@@ -170,6 +194,7 @@ GO
 ALTER TABLE Transakcje ADD CONSTRAINT Transakcje_PK PRIMARY KEY CLUSTERED (IDTransakcji)
     GO
 
+---- Utworzenie kluczy obcych tabeli Egzemplarze
 ALTER TABLE Egzemlarze 
     ADD CONSTRAINT Egzemlarze_SzczegolyFaktury_FK FOREIGN KEY 
     ( 
@@ -209,6 +234,7 @@ ALTER TABLE Egzemlarze
     ON UPDATE NO ACTION 
 GO
 
+---- Utworzenie kluczy obcych tabeli Faktury
 ALTER TABLE Faktury 
     ADD CONSTRAINT Faktury_Firmy_FK FOREIGN KEY 
     ( 
@@ -235,6 +261,7 @@ ALTER TABLE Faktury
     ON UPDATE NO ACTION 
 GO
 
+---- Utworzenie kluczy obcych tabeli Reklamacje
 ALTER TABLE Reklamacje 
     ADD CONSTRAINT Reklamacje_Faktury_FK FOREIGN KEY 
     ( 
@@ -261,6 +288,7 @@ ALTER TABLE Reklamacje
     ON UPDATE NO ACTION 
 GO
 
+---- Utworzenie kluczy obcych tabeli SzczegolyFaktury
 ALTER TABLE SzczegolyFaktury 
     ADD CONSTRAINT SzczegolyFaktury_Faktury_FK FOREIGN KEY 
     ( 
@@ -274,8 +302,9 @@ ALTER TABLE SzczegolyFaktury
     ON UPDATE NO ACTION 
 GO
 
-ALTER TABLE SzczegolyTranzakcji 
-    ADD CONSTRAINT SzczegolyTranzakcji_Transakcje_FK FOREIGN KEY 
+---- Utworzenie kluczy obcych tabeli SzczegolyTransakcji
+ALTER TABLE SzczegolyTransakcji 
+    ADD CONSTRAINT SzczegolyTransakcji_Transakcje_FK FOREIGN KEY 
     ( 
      Transakcje_IDTransakcji
     ) 
@@ -287,6 +316,7 @@ ALTER TABLE SzczegolyTranzakcji
     ON UPDATE NO ACTION 
 GO
 
+---- Utworzenie kluczy obcych tabeli Transakcje
 ALTER TABLE Transakcje 
     ADD CONSTRAINT Transakcje_Klienci_indywidualni_FK FOREIGN KEY 
     ( 
